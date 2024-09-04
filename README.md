@@ -32,5 +32,10 @@
 
 - When to use Amazon Kinesis Data Analytics**: Ideal for scenarios that require real-time analytics and complex data processing capabilities directly on the streaming data.
 ```
+Above Data Analytics design patten enhancement for GEN AI use cases
+
+![image](https://github.com/user-attachments/assets/3308e5e2-2595-40f6-918e-20df16349df8)
+
+
 Terraform code for AWS data analytics
  Repo will contain detail pattern and sample service deploy code
