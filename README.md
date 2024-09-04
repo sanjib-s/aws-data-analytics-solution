@@ -1,4 +1,4 @@
-# aws-data-analytics-solution
+# AWS-DATA-ANALYTICS-PATTERNS
 
 
 ![image](https://github.com/user-attachments/assets/387edee4-28e3-4cbc-b26a-e0aafc0e28ce)
