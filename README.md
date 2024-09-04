@@ -36,6 +36,20 @@ Above Data Analytics design patten enhancement for GEN AI use cases
 
 ![image](https://github.com/user-attachments/assets/3308e5e2-2595-40f6-918e-20df16349df8)
 
+# Key Design Consideration
+
+- As part of using real-time data to train the model:
+
+  - Real-time data from S3 is sent to **Athena** to run the required queries, and the output is saved back to S3.
+  - This S3 data will be used to train a **SageMaker** model.
+  
+- The trained and approved model will be made available for use in **Gen AI** applications.
+
+- Once the model is trained with real-time data, it will be deployed:
+
+  - **Lambda** function will use the trained model for Gen AI applications and for the **Chatbot**. Lambda function will be used as agent.
+
+
 
 Terraform code for AWS data analytics
  Repo will contain detail pattern and sample service deploy code
