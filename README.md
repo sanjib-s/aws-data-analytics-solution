@@ -26,7 +26,7 @@
   
   - Amazon Kinesis Data Streams: Suitable for real-time processing. It provides customization capabilities, allowing developers to write custom logic for processing data as it flows through the stream.
 
-  - Kinesis Data Firehose**: A managed service for real-time streaming to Redshift/S3. It simplifies the process of loading data for storage and analytics.
+  - Kinesis Data Firehose**: A managed service for near real-time streaming to Redshift/S3. It simplifies the process of loading data for storage and analytics.
 
   - Combined Use**: Offers the flexibility and real-time processing capabilities of Kinesis Data Streams with the simplicity and integration ease of Kinesis Data Firehose.
 
